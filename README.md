@@ -3,5 +3,5 @@
 </p>
 
 <p align="center">
-<img src="./github-metrics.svg" width="75%">
+<img src="./github-metrics.svg" width="85%">
 </p>
