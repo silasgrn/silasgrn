@@ -3,6 +3,7 @@ name: GitHub Metrics
 on:
   schedule:
     - cron: "0 0 * * *"
+
   workflow_dispatch:
 
 jobs:
@@ -11,7 +12,6 @@ jobs:
 
     steps:
       - uses: lowlighter/metrics@latest
-
         with:
           filename: github-metrics.svg
 
@@ -33,3 +33,6 @@ jobs:
           plugin_languages_limit: 8
 
           plugin_repositories: yes
+
+          output_action: commit
+          committer_branch: main
